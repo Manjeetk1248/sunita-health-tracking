@@ -16,6 +16,10 @@ In terms of innovation and rapid prototyping, I would use my coding skills to cr
 
 Throughout the process, my secret ingredient would be a genuine understanding of the elderly care needs and continuous improvement based on user feedback. By combining technological innovation with empathy and user-centric design, I aim to create a solution that truly enhances Sunita's health and quality of life.
 
+![Screenshot (223)](https://github.com/Manjeetk1248/sunita-health-tracking/assets/127860744/5d3cadf9-4dad-4724-a142-72cc1098ffb8)
+
+![Screenshot (222)](https://github.com/Manjeetk1248/sunita-health-tracking/assets/127860744/bae15157-dfbb-4e9c-9dc2-72bc9c34e9ae)
+
 FEATURES - 
 Medication reminder system with medicine name and timer.
 Blood Sugar Tracker.
