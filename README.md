@@ -24,8 +24,13 @@ Throughout the process, my secret ingredient would be a genuine understanding of
 
 FEATURES - 
 Medication reminder system with medicine name and timer.
+
 Blood Sugar Tracker.
+
 Weight TRracker.
+
 Mood Tracker.
+
 Communication Tools.
+
 Tracked Data.
