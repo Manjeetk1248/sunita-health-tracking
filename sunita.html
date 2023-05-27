@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sunita's Health Tracker</title>
+
+    <link rel="stylesheet" type="text/css" href="sunita.css">
+    <!-- <style>
+        
+    </style> -->
+</head>
+<body>
+
+    <h1>Sunita's Health Tracker</h1>
+
+    <h2>Medication Reminder System</h2>
+    <div class="tracker">
+        <input type="text" id="medicationName" placeholder="Medication Name">
+        <input type="time" id="medicationTime">
+        <button onclick="addMedication()">Add</button>
+    </div>
+
+    <h2>Blood Sugar Tracker</h2>
+    <div class="tracker">
+        <input type="number" id="bloodSugar" placeholder="Blood Sugar Level">
+        <input type="date" id="bloodSugarDate">
+        <button onclick="addBloodSugar()">Add</button>
+    </div>
+
+    <h2>Blood Pressure Tracker</h2>
+    <div class="tracker">
+        <input type="number" id="systolic" placeholder="Systolic">
+        <input type="number" id="diastolic" placeholder="Diastolic">
+        <input type="date" id="bpDate">
+        <button onclick="addBloodPressure()">Add</button>
+    </div>
+
+    <h2>Weight Tracker</h2>
+    <div class="tracker">
+        <input type="number" id="weight" placeholder="Weight">
+        <input type="date" id="weightDate">
+        <button onclick="addWeight()">Add</button>
+    </div>
+
+    <h2>Mood Tracker</h2>
+    <div class="tracker">
+        <input type="text" id="mood" placeholder="Mood">
+        <input type="date" id="moodDate">
+        <button onclick="addMood()">Add</button>
+    </div>
+
+    <h2>Communication Tool</h2>
+    <div class="messages">
+        <input type="text" id="providerName" placeholder="Provider Name">
+        <textarea id="messageContent" placeholder="Message"></textarea>
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <h2>Directory of Resources and Support Services</h2>
+    <ul class="resources">
+        <li>Resource 1</li>
+        <li>Resource 2</li>
+        <li>Resource 3</li>
+    </ul>
+
+    <h2>Tracked Data</h2>
+    <div class="data-list">
+        <h3>Medication Reminders</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="medicationTableBody"></tbody>
+        </table>
+
+        <h3>Blood Sugar Tracker</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="bloodSugarTableBody"></tbody>
+        </table>
+
+        <h3>Blood Pressure Tracker</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Systolic</th>
+                    <th>Diastolic</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="bloodPressureTableBody"></tbody>
+        </table>
+
+        <h3>Weight Tracker</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Weight</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="weightTableBody"></tbody>
+        </table>
+
+        <h3>Mood Tracker</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mood</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="moodTableBody"></tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="sunita.js"></script>
+        
+    
+</body>
+</html>

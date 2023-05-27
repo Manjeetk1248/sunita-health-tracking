@@ -1,0 +1,77 @@
+body {
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #3b302f;
+            background-color: #71e596;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .tracker {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .tracker input[type="text"],
+        .tracker input[type="number"],
+        .tracker input[type="date"],
+        .tracker select {
+            width: 150px;
+            padding: 5px;
+        }
+
+        .tracker button {
+            padding: 5px 10px;
+        }
+
+        .data-list {
+            margin-top: 20px;
+        }
+
+        .data-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-list th,
+        .data-list td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .data-list th {
+            background-color: #f2f2f2;
+        }
+
+        .messages {
+            margin-top: 20px;
+        }
+
+        .messages input[type="text"],
+        .messages textarea {
+            width: 300px;
+            padding: 5px;
+        }
+
+        .messages button {
+            padding: 5px 10px;
+        }
+
+        .resources {
+            margin-top: 20px;
+        }
+
+        .resources li {
+            margin-bottom: 10px;
+        }
+
+
+        button{
+            color: #444438;
+            background-color: #107bd0;
+        }
